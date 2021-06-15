@@ -30,7 +30,19 @@ public class Retosxd {
                 ". Y la cantidad que posee Ricardo es " + ricardo );*/
         
         
+        final int SALARIO_BASICO = 3500000, COMISION = 1500000;
+        double deducciones = COMISION * 5 / 100;
+        int cantVentas;
+        double slrFinal;
         
+        System.out.println("Ingrese la cantidad de ventas realizadas: ");
+        cantVentas = teclado.nextInt();
+        
+        deducciones = deducciones * cantVentas;
+        
+        slrFinal = SALARIO_BASICO + ((COMISION * cantVentas) - deducciones);
+        
+        System.out.println("El salario final del empleado es: " + slrFinal);
         
         
         
