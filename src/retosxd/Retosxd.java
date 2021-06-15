@@ -44,7 +44,7 @@ public class Retosxd {
         
         System.out.println("El salario final del empleado es: " + slrFinal);
         
-        */
+        
         
         int a, b, c;
         double ecuacionEstudiantePositiva, ecuacionEstudianteNegativa ;
@@ -67,6 +67,44 @@ public class Retosxd {
         System.out.println("La solucion positiva para esta ecuacion es: " + ecuacionEstudiantePositiva);
         
         System.out.println("La solucion negativa para esta ecuacion es: " + ecuacionEstudianteNegativa);
+        */
+        
+        
+        int a, b, c, d, e, f;
+        
+        System.out.println("Ingrese el coeficiente a: ");
+        a = teclado.nextInt();
+        
+        
+        System.out.println("Ingrese el coeficiente b: ");
+        b = teclado.nextInt();
+        
+        
+        System.out.println("Ingrese el coeficiente c: ");
+        c = teclado.nextInt();
+        
+        
+        System.out.println("Ingrese el coeficiente d: ");
+        d = teclado.nextInt();
+        
+        
+        System.out.println("Ingrese el coeficiente e: ");
+        e = teclado.nextInt();
+        
+        
+        System.out.println("Ingrese el coeficiente f: ");
+        f = teclado.nextInt();
+        
+        double x,y;
+        
+        x = (c*e-b*f)/(a*e-b*d);
+        
+        y = (a*f-c*d)/(a*e-b*d);
+        
+        System.out.println("El valor de x es: " + x 
+                + ". El valor de Y es: " + y);
+        
+        
         
     }
     
