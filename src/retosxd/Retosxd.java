@@ -30,7 +30,7 @@ public class Retosxd {
                 ". Y la cantidad que posee Ricardo es " + ricardo );*/
         
         
-        final int SALARIO_BASICO = 3500000, COMISION = 1500000;
+        /*final int SALARIO_BASICO = 3500000, COMISION = 1500000;
         double deducciones = COMISION * 5 / 100;
         int cantVentas;
         double slrFinal;
@@ -44,7 +44,29 @@ public class Retosxd {
         
         System.out.println("El salario final del empleado es: " + slrFinal);
         
+        */
         
+        int a, b, c;
+        double ecuacionEstudiantePositiva, ecuacionEstudianteNegativa ;
+        
+        System.out.println("Digite el coeficiente a: ");
+        a = teclado.nextInt();
+        
+        
+        System.out.println("Digite el coeficiente b: ");
+        b = teclado.nextInt();
+        
+        
+        System.out.println("Digite el coeficiente c: ");
+        c = teclado.nextInt();
+        
+        ecuacionEstudiantePositiva = (((b * -1) + (Math.sqrt(Math.pow(b,2) - (4 * a * c)))) / (a*2));
+        
+        ecuacionEstudianteNegativa = (((b * -1) - Math.sqrt(Math.pow(b,2) - (4 * a * c))) / (a*2));
+        
+        System.out.println("La solucion positiva para esta ecuacion es: " + ecuacionEstudiantePositiva);
+        
+        System.out.println("La solucion negativa para esta ecuacion es: " + ecuacionEstudianteNegativa);
         
     }
     
